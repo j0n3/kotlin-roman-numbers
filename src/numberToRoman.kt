@@ -1,5 +1,11 @@
 fun Int.toRoman(): String {
     val romanMap = mapOf(
+        50000 to "Ĺ",
+        40000 to "ẊĹ",
+        10000 to "Ẋ",
+        9000 to "MẊ",
+        5000 to "Ṽ",
+        4000 to "MṼ",
         1000 to "M",
         900 to "CM",
         500 to "D",
