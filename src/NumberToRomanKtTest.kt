@@ -51,6 +51,10 @@ class NumberToRomanKtTest {
         assertEquals(actual, "ĹMṼCCCXXI")
     }
 
-
+    @Test
+    fun `test 394678 is `() {
+        val actual = 394678.toRoman()
+        assertEquals(actual, "ṀṀṀẊṀMṼDCLXXVIII")
+    }
 
 }
